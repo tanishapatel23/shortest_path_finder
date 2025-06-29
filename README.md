@@ -20,9 +20,9 @@ An interactive **web app** that visualizes the **shortest path** between two poi
 
 | **Frontend**       | **Backend**        | **Deployment & Tools**     |
 |--------------------|--------------------|-----------------------------|
-| React              | Flask (Python)     | Netlify (Frontend Hosting) |
-| HTML5, CSS3        | Flask-CORS         | Render (Backend Hosting)   |
-| JavaScript (ES6+)  | REST API (JSON)    | Git & GitHub               |
+| React              | Flask (Python)     | Netlify                     |
+| HTML, CSS          | Flask-CORS         | Render                      |
+| JavaScript         | REST API           | Git & GitHub                |
 
 ---
 
@@ -73,4 +73,4 @@ Your app should now be running at: [http://localhost:3000](http://localhost:3000
 
 ---
 
-## 🙋‍♂️ Made with logic and caffeine by Pulkit Garg
+## 🙋‍♂️ Made with logic and caffeine by Tanisha Patel
