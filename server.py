@@ -6,10 +6,7 @@ from heapq import heappush, heappop
 from flask import Flask, jsonify
 
 app = Flask(__name__, static_folder='../frontend/build', static_url_path='')
-cors = CORS(app)
-
-
-cors = CORS(app, origins=["https://shortest-path-finder-delta.vercel.app/"]) 
+cors = CORS(app, origins=["http://localhost:3000"])
 
 
 @app.route('/')
