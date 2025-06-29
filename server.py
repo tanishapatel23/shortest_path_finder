@@ -6,7 +6,11 @@ from heapq import heappush, heappop
 from flask import Flask, jsonify
 
 app = Flask(__name__, static_folder='../frontend/build', static_url_path='')
-cors = CORS(app, origins=["http://localhost:3000"])
+cors = CORS(app, origins=[
+    "http://localhost:3000",
+    "https://shortest-path-finder-iitg.netlify.app"
+])
+
 
 
 @app.route('/')
